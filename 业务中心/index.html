@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>业务中心</title>
+    <!-- Bootstrap css文件-->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">业务中心</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">首页</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+
+        <h2 class="main_title">查询统计</h2>
+        <!-- 查询统计标签页-->
+        <ul class="nav nav-tabs" role="tablist" id="tab_list_cxtj">
+            <li class="active"><a href="#tab-zzgl" role="tab" data-toggle="tab">资质管理</a></li>
+            <li><a href="#tab-spfys" role="tab" data-toggle="tab">商品房预售</a></li>
+            <li><a href="#tab-jgjfgl" role="tab" data-toggle="tab">竣工交付管理</a></li>
+            <li><a href="#tab-gj" role="tab" data-toggle="tab">估价</a></li>
+            <li><a href="#tab-qtyw" role="tab" data-toggle="tab">其它业务</a></li>
+            <li><a href="#tab-zhcx" role="tab" data-toggle="tab">综合查询</a></li>
+            <li><a href="#tab-xtgl" role="tab" data-toggle="tab">系统管理</a></li>
+        </ul>
+        <!-- 查询统计标签页对应的内容-->
+        <div class="tab-content">
+            <!-- 资质管理-->
+            <div class="tab-pane active" id="tab-zzgl">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="list-group tab_list_group">
+                            <a href="#" class="list-group-item">个人办理业务查询</a>
+                            <a href="#" class="list-group-item">驳回办结</a>
+                            <a href="#" class="list-group-item">综合查询</a>
+                            <a href="#" class="list-group-item">资质全部业务</a>
+                            <a href="#" class="list-group-item">资质直接发证</a>
+                            <a href="#" class="list-group-item">企业信息变更待办业务</a>
+                            <a href="#" class="list-group-item">企业信息变更全部业务</a>
+                            <a href="#" class="list-group-item">资质证号修改</a>
+                            <a href="#" class="list-group-item">归档</a>
+                            <a href="#" class="list-group-item">驳回处理</a>
+                            <a href="#" class="list-group-item">查询统计</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 资质管理-->
+            <div class="tab-pane" id="tab-spfys">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="list-group tab_list_group">
+                            <a href="#" class="list-group-item">预售证号修改</a>
+                            <a href="#" class="list-group-item">确认直接发证</a>
+                            <a href="#" class="list-group-item">驳回办结</a>
+                            <a href="#" class="list-group-item">信息发布</a>
+                            <a href="#" class="list-group-item">综合查询</a>
+                            <a href="#" class="list-group-item">预警查询</a>
+                            <a href="#" class="list-group-item">归档</a>
+                            <a href="#" class="list-group-item">归档驳回处理</a>
+                            <a href="#" class="list-group-item">查询统计</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 竣工交付管理-->
+            <div class="tab-pane" id="tab-jgjfgl">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="list-group tab_list_group">
+                            <a href="#" class="list-group-item">项目竣工全部业务</a>
+                            <a href="#" class="list-group-item">项目竣工直接发证</a>
+                            <a href="#" class="list-group-item">归档</a>
+                            <a href="#" class="list-group-item">查询统计</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 估价-->
+            <div class="tab-pane" id="tab-gj">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="list-group tab_list_group">
+                            <a href="#" class="list-group-item">综合查询</a>
+                            <a href="#" class="list-group-item">归档</a>
+                            <a href="#" class="list-group-item">归档驳回处理</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 其它业务-->
+            <div class="tab-pane" id="tab-qtyw">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="list-group tab_list_group">
+                            <a href="#" class="list-group-item">估价预约办理</a>
+                            <a href="#" class="list-group-item">估价预约办理查询</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 综合查询-->
+            <div class="tab-pane" id="tab-zhcx">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="list-group tab_list_group">
+                            <a href="#" class="list-group-item">企业信息查询</a>
+                            <a href="#" class="list-group-item">企业到期未换证查询</a>
+                            <a href="#" class="list-group-item">企业人员查重</a>
+                            <a href="#" class="list-group-item">企业资质升降级查询</a>
+                            <a href="#" class="list-group-item">资质办理情况分类查询</a>
+                            <a href="#" class="list-group-item">竣工交付办理情况查询</a>
+                            <a href="#" class="list-group-item">企业分类汇总统计</a>
+                            <a href="#" class="list-group-item">资质变更情况统计</a>
+                            <a href="#" class="list-group-item">竣工交付备案汇总</a>
+                            <a href="#" class="list-group-item">资质业务扫描查询</a>
+                            <a href="#" class="list-group-item">竣工业务扫描件查询</a>
+                            <a href="#" class="list-group-item">预售业务扫描件查询</a>
+                            <a href="#" class="list-group-item">总体情况统计表</a>
+                            <a href="#" class="list-group-item">预售情况按项目统计表</a>
+                            <a href="#" class="list-group-item">预售情况按地区统计表</a>
+                            <a href="#" class="list-group-item">房地产开发企业资质核准双公示</a>
+                            <a href="#" class="list-group-item">商品房(经济适用住房)预售许可双公示</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 系统管理-->
+            <div class="tab-pane" id="tab-xtgl">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="list-group tab_list_group">
+                            <a href="#" class="list-group-item">修改密码</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 分割线-->
+        <hr>
+
+        <h2 class="main_title">业务办理</h2>
+        <!-- 业务办理标签页-->
+        <ul class="nav nav-tabs" role="tablist" id="tab_list_ywbl">
+            <li class="active"><a href="#tab-zzgl_ywbl" role="tab" data-toggle="tab">资质管理</a></li>
+            <li><a href="#tab-spfys_ywbl" role="tab" data-toggle="tab">商品房预售</a></li>
+            <li><a href="#tab-jgjfgl_ywbl" role="tab" data-toggle="tab">竣工交付管理</a></li>
+            <li><a href="#tab-gj_ywbl" role="tab" data-toggle="tab">估价</a></li>
+            <li><a href="#tab-qtyw_ywbl" role="tab" data-toggle="tab">其它业务</a></li>
+            <li><a href="#tab-jjjggl_ywbl" role="tab" data-toggle="tab">经济机构管理</a></li>
+            <li><a href="#tab-xtgl_ywbl" role="tab" data-toggle="tab">系统管理</a></li>
+        </ul>
+
+        <!-- 查询统计标签页对应的内容-->
+        <div class="tab-content">
+            <!-- 资质管理-->
+            <div class="tab-pane active" id="tab-zzgl_ywbl">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="list-group tab_list_group">
+                            <a href="#" class="list-group-item">预审</a>
+                            <a href="#" class="list-group-item">收件</a>
+                            <a href="#" class="list-group-item">初审</a>
+                            <a href="#" class="list-group-item">复审</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 商品房预售-->
+            <div class="tab-pane" id="tab-spfys_ywbl">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="list-group tab_list_group">
+                            <a href="#" class="list-group-item">预审</a>
+                            <a href="#" class="list-group-item">收件</a>
+                            <a href="#" class="list-group-item">初审</a>
+                            <a href="#" class="list-group-item">复审</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 竣工交付管理-->
+            <div class="tab-pane" id="tab-jgjfgl_ywbl">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="list-group tab_list_group">
+                            <a href="#" class="list-group-item">收件</a>
+                            <a href="#" class="list-group-item">审核</a>
+                            <a href="#" class="list-group-item">审批</a>
+                            <a href="#" class="list-group-item">发证</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 估计-->
+            <div class="tab-pane" id="tab-gj_ywbl">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="list-group tab_list_group">
+                            <a href="#" class="list-group-item">收件</a>
+                            <a href="#" class="list-group-item">审核</a>
+                            <a href="#" class="list-group-item">审批</a>
+                            <a href="#" class="list-group-item">发证</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 其它业务-->
+            <div class="tab-pane" id="tab-qtyw_ywbl">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="list-group tab_list_group">
+                            <a href="#" class="list-group-item">白蚁防治</a>
+                            <a href="#" class="list-group-item">估价机构资质信息</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 经济机构管理-->
+            <div class="tab-pane" id="tab-jjjggl_ywbl">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="list-group tab_list_group">
+                            <a href="#" class="list-group-item">收件</a>
+                            <a href="#" class="list-group-item">审核</a>
+                            <a href="#" class="list-group-item">发证</a>
+                            <a href="#" class="list-group-item">已完成</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 系统管理-->
+            <div class="tab-pane" id="tab-xtgl_ywbl">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="list-group tab_list_group">
+                            <a href="#" class="list-group-item">修改密码</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-- container-fluid-->
+</div>
+<!-- container-->
+
+
+<!-- js文件-->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
