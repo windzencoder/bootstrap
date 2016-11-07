@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>业务查询</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/list.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="container-fluid">
+
+    <div class="row top_header">
+        <div class="col-md-4">
+            <h2 class="main_title">业务查询</h2>
+        </div>
+        <div class="col-md-8 text-right">
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="name">企业名称:</label>
+                    <input type="email" class="form-control" id="name">
+                </div>
+                <button type="submit" class="btn btn-default">查询</button>
+            </form>
+        </div>
+    </div>
+
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>审批方案批次号</th>
+                <th>企业名称</th>
+                <th>联系人</th>
+                <th>联系方式</th>
+                <th>区属</th>
+                <th>业务类型</th>
+                <th>所属状态</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ZZ20140550</td>
+                <td>武汉国益通置业有限公司</td>
+                <td>张建容</td>
+                <td>18607145661</td>
+                <td>东西湖区</td>
+                <td>新资质申报</td>
+                <td>已完成</td>
+                <td><a class="btn btn-primary btn-sm">查看</a></td>
+            </tr>
+            <tr>
+                <td>ZZ20140016</td>
+                <td>武汉西北湖地产开发有限公司</td>
+                <td>张昆</td>
+                <td>88937277</td>
+                <td>江汉区</td>
+                <td>新资质申报</td>
+                <td>已完成</td>
+                <td><a class="btn btn-primary btn-sm">查看</a></td>
+            </tr>
+            <tr>
+                <td>ZZ20140417</td>
+                <td>湖北金利达房地产开发有限公司</td>
+                <td>丁涛</td>
+                <td>13507139781</td>
+                <td>蔡甸区</td>
+                <td>新资质申报</td>
+                <td>已完成</td>
+                <td><a class="btn btn-primary btn-sm">查看</a></td>
+            </tr>
+            <tr>
+                <td>ZZ20150389</td>
+                <td>武汉万中天润置业有限公司</td>
+                <td>葛铮铮</td>
+                <td>18602701012</td>
+                <td>黄陂区</td>
+                <td>新资质申报</td>
+                <td>已完成</td>
+                <td><a class="btn btn-primary btn-sm">查看</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <nav class="text-center">
+        <ul class="pagination">
+            <li><a href="#">&laquo;</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">&raquo;</a></li>
+        </ul>
+    </nav>
+
+</div>
+
+
+<!-- js文件-->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

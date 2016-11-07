@@ -1,0 +1,23 @@
+body {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.top_header {
+    margin-bottom: 15px;
+}
+
+.table tbody>tr>td{
+    vertical-align: middle;
+}
+
+.main_title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
