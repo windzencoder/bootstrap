@@ -5,3 +5,8 @@ body {padding-top: 20px; padding-bottom: 20px;}
 .tab_list_group {margin-top: 20px; margin-bottom: 20px;}
 
 
+.item {position: relative; background-color: #fff; box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5); margin-top: 20px; margin-bottom: 20px;}
+.block_a {display: block;}
+.text_title_div{width: 100%; background-color: rgba(255,255,255,0.8); position: absolute;
+    bottom: 0; left: 0; padding: 15px 10px;}
+.text_title_div h6 {color: #07111b; margin: 0; font-size: 15px;}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- Bootstrap css文件-->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+
+
+    <style>
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #eee;
+            background:url("images/bg_2.jpg") no-repeat center;
+            background-size: cover;
+        }
+
+        .form-signin {
+            max-width: 320px;
+            padding: 15px;
+            margin: 0 auto;
+            background-color: rgba(255,255,255,0.9);
+        }
+
+    </style>
+
+
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+    <form class="form-signin">
+        <h2 class="form-signin-heading">开发综合管理系统</h2>
+        <div class="form-group">
+            <label for="username">用户名:</label>
+            <input type="text" class="form-control" name="username" id="username" required autofocus />
+        </div>
+        <div class="form-group">
+            <label for="password">密码:</label>
+            <input type="password" class="form-control" name="password" id="password" required />
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
+    </form>
+
+</div>
+
+<!-- js文件-->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
