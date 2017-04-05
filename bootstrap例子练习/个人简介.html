@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>个人简介 来自w3cschool</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- 字体-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        .bg-1{
+            background-color: #1abc9c;
+            color: #ffffff;
+        }
+        .bg-2 {
+            background-color: #474e5d; /* Dark Blue */
+            color: #ffffff;
+        }
+        .bg-3 {
+            background-color: #ffffff; /* White */
+            color: #555555;
+        }
+        .bg-4 {
+            background-color: #2f2f2f;
+            color: #ffffff;
+        }
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        .navbar{
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+        .navbar li a:hover{
+            color: #1abc9c !important;
+        }
+    </style>
+
+</head>
+<!--滚动监测-->
+<body>
+
+<!--导航-->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">我</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">WHO</a></li>
+                <li><a href="#">WHAT</a></li>
+                <li><a href="#">WHERE</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid bg-1 text-center">
+    <h3>Who Am I?</h3>
+    <img class="img-circle img-responsive" style="display: inline;" src="image/bird.jpg" alt="Bird">
+    <h3>I'm an adventurer</h3>
+</div>
+
+<div class="container-fluid bg-2 text-center">
+    <h3>Who Am I?</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+    <h3>Where To Find Me?</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <a href="#" class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-search"></span>搜索
+    </a>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+    <h3>Where To Find Me?</h3>
+    <div class="row">
+        <div class="col-sm-4">
+            <p>Lorem ipsum..</p>
+            <img class="img-responsive" style="width: 100%" src="image/birds1.jpg" alt="Image">
+        </div>
+        <div class="col-sm-4">
+            <p>Lorem ipsum..</p>
+            <img class="img-responsive" style="width: 100%" src="image/birds2.jpg" alt="Image">
+        </div>
+        <div class="col-sm-4">
+            <p>Lorem ipsum..</p>
+            <img class="img-responsive" style="width: 100%" src="image/birds3.jpg" alt="Image">
+        </div>
+    </div>
+</div>
+
+<footer class="container-fluid bg-4 text-center">
+    <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery/jquery-2.1.4.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
