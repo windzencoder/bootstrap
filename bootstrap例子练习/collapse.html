@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery/jquery-2.1.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h2>Expand and Collapse with different icons</h2>
+    <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#demo">
+        <span class="glyphicon glyphicon-collapse-down"></span> Open
+    </button>
+    <div id="demo" class="collapse">
+        被折叠/打开的内容
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        $("#demo").on("hide.bs.collapse", function(){
+            $(".btn").html('<span class="glyphicon glyphicon-collapse-down"></span> Open');
+        });
+        $("#demo").on("show.bs.collapse", function(){
+            $(".btn").html('<span class="glyphicon glyphicon-collapse-up"></span> Close');
+        });
+    });
+</script>
+
+
+
+
+</body>
+</html>
